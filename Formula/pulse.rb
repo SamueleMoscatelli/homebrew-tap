@@ -1,25 +1,25 @@
 class Pulse < Formula
   desc "Static analyzer and Quality Gate for AI assets: instructions, agents, prompts, skills, MCP configs and hooks"
   homepage "https://github.com/SamueleMoscatelli/pulse"
-  version "1.2.3"
+  version "1.2.4"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/SamueleMoscatelli/pulse/releases/download/v1.2.3/pulse-cli-aarch64-apple-darwin.tar.xz"
-      sha256 "62746a4d0689e61ca4f9557abd23f82f84674490ea6a68237cbb5464e1d9aa3f"
+      url "https://github.com/SamueleMoscatelli/pulse/releases/download/v1.2.4/pulse-cli-aarch64-apple-darwin.tar.xz"
+      sha256 "5426a8a346081fe8834cd9853bd4eccabef4db179b38eabe53052d84a952b0cc"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/SamueleMoscatelli/pulse/releases/download/v1.2.3/pulse-cli-x86_64-apple-darwin.tar.xz"
-      sha256 "d9390d8cc21eb3c03eee059f6798f79c6dab18ba79668354b40a0552acd57f6c"
+      url "https://github.com/SamueleMoscatelli/pulse/releases/download/v1.2.4/pulse-cli-x86_64-apple-darwin.tar.xz"
+      sha256 "a9de452b25e16cc5a110b19dd69f4946a7ea05d0f5fc677bdf30d0ffa114f5b5"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/SamueleMoscatelli/pulse/releases/download/v1.2.3/pulse-cli-aarch64-unknown-linux-musl.tar.xz"
-      sha256 "a6a76d6f472f43178eeb4b5292a0832c88b339185f9c12e72101bf5102f8d370"
+      url "https://github.com/SamueleMoscatelli/pulse/releases/download/v1.2.4/pulse-cli-aarch64-unknown-linux-musl.tar.xz"
+      sha256 "c653fdbfac927d81b98059e4d22e610f43990aaa3490a0746b72dc436d33f0d3"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/SamueleMoscatelli/pulse/releases/download/v1.2.3/pulse-cli-x86_64-unknown-linux-musl.tar.xz"
-      sha256 "943f2861ac420c938b1eead71f21653c4fe26c564acee40069696cea0aa9a8cf"
+      url "https://github.com/SamueleMoscatelli/pulse/releases/download/v1.2.4/pulse-cli-x86_64-unknown-linux-musl.tar.xz"
+      sha256 "4382143448a741ba7ee53726cab4026e641e75d5951169bce2cc7d0105a0ccd2"
     end
   end
   license "Apache-2.0"
